@@ -10,6 +10,11 @@ namespace WebApplication7.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+
+        /// <summary>
+        /// added new cooments by mandar 01
+        /// </summary>
+        /// <returns></returns>
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
